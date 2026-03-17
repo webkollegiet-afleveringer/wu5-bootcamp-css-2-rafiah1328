@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Information Page original</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <!-- separating header's two sections by div -->
+            <div class="header-unit-1">
+                <!-- burger menu button is used because of action related to it - 2 method  dntno  -->
+
+                <!-- <button><img src="img/hamburger-menu-svgrepo-com.svg" alt="burger-menu"></button> -->
+
+                <button class="nav-toggle">
+                    <!-- simple accessible burger icon -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                        <rect x="3" y="6" width="18" height="2" rx="1"></rect>
+                        <rect x="3" y="11" width="18" height="2" rx="1"></rect>
+                        <rect x="3" y="16" width="18" height="2" rx="1"></rect>
+                    </svg>
+                    <span>Menu</span>
+                </button>
+                <!-- search button . unclear situation. usually followed by input type text.
+                  not sure about why it stand alone could have used a tag -->
+
+                <search>
+                    <form class="search-img">
+                        <img src="img/svg/magnifying-glass-solid-full.svg" alt="serach-button">
+                    </form>
+                </search>
+
+                <!-- logo as link  -->
+                <a href="#"><img role="heading" aria-level="1" src="img/information_screenshot.png"
+                        alt="Information"></a>
+
+                <!-- login as link because it will take to a login page -->
+                <a href="#">login<img src="img/svg/user-solid-full.svg" alt=""></a>
+
+            </div>
+
+            <!-- header second unit/section -->
+            <div class="header-unit-2">
+
+                <nav class="header__navigation navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__item"><a href="#">Nyhedsbreve</a></li>
+                    </ul>
+                    <ul>
+                        <li class="navigation__item"><a href="#">Podcast</a></li>
+                    </ul>
+                    <ul>
+                        <li class="navigation__item"><a href="#">Købe Abbonnement</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main-container">
+            <!-- first unit /section in main is image. section must have a heading therefore firgure tag -->
+            <figure>
+                <img src="img/image_9007977.png" alt="">
+                <figcaption>Announce</figcaption>
+            </figure>
+            <!-- article -->
+            <article>
+                <h4>Abonnement <span>LÆSETID: 7 MIN.</span></h4>
+                <h2>Gas er et godt politisk våben. Det er bare
+                    ikke Putin, der bruger det</h2>
+                <p>ikke Putin, der bruger det
+                    Nogle EU-lande frygter, at Rusland kan bruge Nord Stream 2 som politisk våben mod
+                    Nogle EO-lande fryster, at kusiand kan bruge Nord Streal 2 som ponusk vaven mod
+                    Europa. Men i virkeligheden er det omvendt, mener firmaerne bag rørledningen: Det e
+                    EU, der bruger gassen som våben over for Putin. Information har været på charmetur
+                    med den russiske gas' europæiske venner</p>
+
+                <figure class="aside">
+                    <figcaption>Rusland vil ikke bruge gasrørledninger
+                        rd Stream 2, som politisk våben, lyde
+                        ., det fra folkene bag projektet.
+                        Rørledningen koster 70 mia. kr. og vil
+                        om aret. <span><img src="img/article.png" alt="">Peter Nygaard Christensen</span>
+                    </figcaption>
+                </figure>
+            </article>
+
+            <section class="">
+                <div>
+                    <h3>Udland</h3>
+                    <span><img src="img/svg/clock-regular-full.svg" alt="">7. maj 2018</span>
+                    <span><img src="img/svg/comments-regular-full.svg" alt="">Kommentarer (2)</span>
+
+                </div>
+
+                <figure class="author ">
+                    <figcaption>
+                        <img src="img/image_jakob.png" alt="">
+                        <h3>Jakob Stein</h3>
+                        <a href="#"><img src="img/svg/envelope-regular-full.svg" alt="">Email</a>
+                        <a href="#"><img src="img/svg/twitter-brands-solid-full.svg" alt="">Twitter</a>
+                        <h3 class="author__name">Peter Nygaard Christensen</h3>
+                        <a href="#"><img src="img/svg/envelope-regular-full.svg" alt="">Email</a>
+                    </figcaption>
+                </figure>
+                <p class="article__body">»Jeg tænker, at vi lige taler os varme sammen,
+                    før vi begynder på interviewet,« siger Jens
+                    Muller, talsperson for det russiske gasfirma
+                    Ned t ddrussiske gasfirm
+                    Nord Stream 2 AG. Vi sidder en gruppe
+                    journalister i en bus på vej til en gasterminal i
+                    Rotterdam, inviteret af folkene bag den
+                    kommende russiske gasrørledning, Nord Stream 2 (NS2), der efter planen skal krydse
+                    dansk farvand.</p>
+                <nav>
+                    <ul>
+                        <li><a href="#"><img src="img/svg/facebook-f-brands-solid-full.svg" alt="">Facebook</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a href="#"><img src="img/twitter_3670151.png" alt="">Twitter</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a href="#"><img src="img/svg/envelope-regular-full.svg" alt="">Email</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section>
+                <h2>Vores abonnenter kalder os kritisk, serløs og troværdig.
+                    Se om du er enig ...</h2>
+                <button>KLIK HER</button>
+                <p>Allerede abonnent? <a href="#">Log ind her</a></p>
+            </section>
+
+            <!-- articles carrosal -->
+            <section>
+                <div>
+                    <h3>Fik du læst?</h3>
+                    <span><img src="img/svg/compass-solid-full.svg" alt=""></span>
+
+                    <div><span><img src="img/svg/circle-arrow-left-solid-full.svg" alt=""></span>
+                        <span><img src="img/svg/circle-right-solid-full.svg" alt="">Kommentarer (2)</span>
+                    </div>
+                </div>
+                <div>
+                    <figure>
+                        <img src="img/image 1.png" alt="">
+                        <figcaption>
+                            Alternativ forbrødring, eller
+                            Alternativ forbrodris, erer
+                            »Jeg måtte ud på det dyb
+                            hvordan jeg lærte at holde
+                            op med at bekymre mig o
+                            elske jazzhænder
+                        </figcaption>
+                    </figure>
+
+                    <figure><img src="img/image 2.png" alt="">
+                        <figcaption>
+                            •Jeg matte ud på det dybe
+                            and for at nå til et nyt </figcaption>
+                    </figure>
+                    <figure><img src="img/image 3.png" alt="">
+                        <figcaption>
+                            Iceage lever stadig op til den
+                            hype, de opnåede. inden de
+                            var gamie nok til at nytte
+                            hiemmerra </figcaption>
+                    </figure>
+                    <figure><img src="img/image 4.png" alt="">
+                        <figcaption>
+                            Under normale forhold ville
+                            rumps skandaleramte
+                            illxhef rorlængst være
+                            levet bortvist.„</figcaption>
+                    </figure>
+
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h3>Seneste nyt</h3>
+                    <h3>Information.dk</h3>
+                </div>
+                <nav>
+                    <ul>
+                        <li><span>16:36</span><a href="">Slut med møntbetaling i
+                                københavnske p-automater</a></li>
+                        <li><span>16:36</span><a href="">Energiminister: Afgift på
+                                biomasse er forkert vej at gå</a></li>
+                        <li><span>16:36</span><a href="">Libanesisk premierministers
+                                parti går en trediedel tilbage</a></li>
+                        <li><span>16:36</span><a href="">mbudsmand: Offentligheden
+                                å sekron rinsens JOC. breve</a></li>
+                        <li><span>16:36</span><a href="">WWF: Vildsvinehegn skader
+                                andre dyrearter i grænselandet</a></li>
+                        <li><span>16:36</span><a href="">Atomaftale med Iran fortsætter
+                                også uden USA</a></li>
+                        <li><span>16:36</span><a href="">Flere nyheder •</a></li>
+                    </ul>
+                </nav>
+                <h2><img src="img/svg/house-solid-full.svg" class="house-solid-full" alt="">Forsiden Iige nu</h2>
+                <h3>ABONNEMENT</h3>
+                <section>
+                    <img src="img/image 5.png" alt="">
+                    <h3>Gas er et godt politisk våben.
+                        Det er bare ikke Putin, der
+                        bruger det</h3>
+                </section>
+                <section>
+                    <img src="img/image 6.png" alt="">
+                    <h3>Mand dig op, kvinde!</h3>
+                    <p>Peter Madsen anker kun
+                        længden af sin straf
+                        Ankesagen mod Peter Madsen
+                        kommer kun til at handle om, hvilken
+                        strafhan skal have</p>
+                </section>
+                <h3>ABONNEMENT</h3>
+                <section>
+                    <img src="img/image 7.png" alt="">
+                    <h3>Rapport fra norsk
+                        regeringskommission skaber
+                        tvivl om lovligheden af FE'S
+                        masseovervågning</h3>
+                </section>
+
+                <h3>ABONNEMENT</h3>
+                <section>
+                    <h3>Sådan håndteres offentlige
+                        arbejdskonflikter i Sverige og
+                        Norge</h3>
+                    <p>Den ellers hojtbesungne danske
+                        model skal revideres, hvis det star til
+                        Socialdemokratiets fotmand. Mette
+                        Frederiksen. Information skitserer i
+                        den anledning
+                        overenskomstmodellerne hos Vores
+                        nordiske sosternationer. Men maske
+                        behover vi Slet ikke se ud over landers
+                        grænser for at finde inspiration til
+                        iusteringer/p>
+                </section>
+
+                <h3>ABONNEMENT</h3>
+                <section>
+                    <img src="img/image 8.png" alt="">
+                    <h3>440.000 syrere er vendt
+                        tilbage, selv om krigen
+                        fortsætter. Vi har fulgt en af
+                        dem</h3>
+                </section>
+            </section>
+
+            <section class="Anbefal artikle details">
+                <div>
+                    <h3>Anbefallnger</h3>
+                    <h3>Kommentarer</h3>
+                </div>
+                <article>
+                    <img src="img/svg/user-solid-full.svg" alt="">
+                    <h3>Henrik holm hansen</h3>
+                    <span>07. maj. 2018-05:56</span>
+                    <p>Hvis det forholder sig som skrevet står at Rusland for mest ud nord stream 2 forstår jeg
+                        Slet ikke politikerne og måske specielt EU ikke bruger muligheden aktivt til presse
+                        endsige fortælle PUTIN at ruslands opførsel i Ukraine ikke kan accepteres kommer der
+                        ikke penge i kassen kan oligarkeme ikke fodres !</p>
+                    <button>Anbefal kommentar</button>
+                </article>
+                <article>
+                    <img src="img/svg/user-solid-full.svg" alt="">
+                    <h3>Gert Romme</h3>
+                    <span>07. maj. 2018 - 17:08</span>
+                    <p>Jeg Skal ikke vurdere, hvem der eventuelt kan finde på at benytte dette Våben, der er
+                        lammende for civilsamfundet.
+                        Men Rusland har faktisk brugt dette "våben" mere end en gang. Og de vestlige lande med
+                        Forbundsrepublikken i spidsen er blevet ramt mindst 2 gange.
+                        Og hver gang har Rusland beklaget, og undskyldt sig med, at man ikke kunne ramme
+                        Poland (1 gang) og Ukraina (mindst 1 gang), uden at det påvirkede andre aftagelande. Og
+                        mindst en gang mente Rusland, at de vestlige aftagerlande burde straffe??? - Ukraina.
+                        I øvrigt så jeg i eftermiddags tidligere SPD-medlem, tidligere Forbundskanzler og tidligere
+                        Gerhard Schröder sidde på de fine pladser under Vladimir Putins indsættelses-show. Det
+                        var på RT (Russia Today), der er Vladimir Putins personlige propaganda-kanal der også
+                        sikrer "det frie ord" i verden. Det så ud til, det var meget vigtigt for Putin og RT, for der
+                        var
+                        hele tiden fokus på en tidligere Hr. Schröder.</p>
+                    <button>Anbefal kommentar</button>
+                </article>
+                <p>Du skal være registreret bruger for at kommentere. <a href="#">Log ind </a> eller
+                    <a href="#">opret bruger »</a>
+                </p>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <h3>Information som E-avis</h3>
+                <p>Du kan læsc Information, lige sorn du vil.
+                    På din mchl. tablet eller computer — helt ude skoven.
+                </p>
+                <div>
+                    <a href=""><img src="img/svg/computer.svg" alt="">Læs e-avisen pa din computer</a>
+                    <a href=""><img src="img/svg/apple-brands-solid-full.svg" alt="">Download til Apple</a>
+                    <a href=""><img src="img/svg/android-brands-solid-full.svg" alt="">Download til Android</a>
+                </div>
+
+                <div>
+                    <h4>Følg avisen</h4>
+                    <a href="img/svg/envelope-regular-full.svg"><img src="" alt=""> Nyhedsbreve</a>
+                    <a href="img/svg/facebook-f-brands-solid-full.svg"><img src="" alt="">Facebook</a>
+                    <a href=""><img src="img/svg/twitter-brands-solid-full.svg" alt="">Twitter</a>
+                    <a href=""><img src="img/svg/rss-solid-full.svg" alt="">RSS</a>
+
+                </div>
+            </div>
+
+            <div>
+                <div class="footer-center">
+                    <img src="img/image.png" alt="">
+                </div>
+                <div>
+                    <form action="">
+                        <h3>Information hver morgen</h3>
+                        <input type="email" name="email" id="email">
+                        <button type="submit">Tilmeld</button>
+                    </form>
+
+                    <h3>Køb avisen</h3>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Få et godt tilbud</a></li>
+                            <li><a href="">Abonnement — selvbetjening</a></li>
+                            <li><a href="">Abonnementsbetingelser</a></li>
+                            <li><a href="">Information i løssalg</a></li>
+                            <li><a href="">Hjælp til information.dk</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <h3>Om Information</h3>
+                    <nav>
+                        <ul>
+                            <li><a href="#">iBureauet</a></li>
+                            <li><a href="">Besøg Butikken</a></li>
+                            <li><a href="">Informations Venner</a></li>
+                            <li><a href="">Ledige stillinger</a></li>
+                            <li><a href="">Okonomi og ledelse</a></li>
+                            <li><a href="">Hosted hos Sentia </a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <p>Ansvarshavende chefredaktør: Rune Lykkeberg </p>
+                    <address>Dagbladet Information, Store Kongensgade 40C, 1264 København. Telefon: 3369 6000 | CVR:
+                        63058416</address>
+
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Privatlivspoiltik </a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">Annoncering </a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </footer>
+</body>
+
+
+</html>
